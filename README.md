@@ -1,6 +1,6 @@
 ## Pickrr Shipment Extension for Magento
 
-Pickrr Magento 2 module for automatic/manual creation of shipments thorugh Pickrr.
+Pickrr Magento 2 module for automatic/manual creation of shipments through Pickrr.
 
 ###Installation Instructions:
 
@@ -26,12 +26,11 @@ In case of any problems/queries, contact info@pickrr.com
 ```php
 //import helper class
 
-Pickrr\Magento2\Helper\ExportShipment $helper;
+Pickrr\Shipment\Helper\ExportShipment $helper;
 
 ```
 ####Create a simple Pickrr Shipment:
 
-Passing $pickup_time and $cod is optional.
 
 **Prototype of the function:**
 ```php
